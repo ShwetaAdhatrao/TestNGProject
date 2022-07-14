@@ -54,7 +54,7 @@ public class VerifySignUpPage extends BaseClass {
    
    //to select country - static drop down - use of select class
    Select s2=new Select(sp.selectCountry());
-   s2.selectByIndex(3);
+   s2.selectByValue("IND");
  
      
    
